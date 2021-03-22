@@ -1,2 +1,2 @@
-const getName = obj => obj['name'];
+const getName = obj => obj.name;
 module.exports = getName;
