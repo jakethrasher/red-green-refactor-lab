@@ -2,14 +2,16 @@ const capitalizeAndFilter = arr => {
 
   const newArray = [];
 
-  const regex = /[fF]/;
-  
+  const regex = /^f|F/;
+
   for(const item of arr){
-    if(!regex.test(item))
+    if(!regex.test(item.charAt(0)))
     {
       newArray.push(item.toUpperCase());
     }
   }
+  console.log(newArray);
+
   return newArray;
 };
 
