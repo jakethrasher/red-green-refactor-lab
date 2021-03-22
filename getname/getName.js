@@ -1,2 +1,5 @@
-const getName = obj => obj.name;
+const getName = obj =>{
+  const { name } = obj;
+  return name;
+};
 module.exports = getName;
