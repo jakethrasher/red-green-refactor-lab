@@ -13,3 +13,4 @@ describe('fetchQuotes function', () => {
     }));
   });
 });
+
